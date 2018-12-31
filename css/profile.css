@@ -1,0 +1,67 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+
+.profile .profile__header {
+  height: 80vh;
+  background-image: url(https://t1.daumcdn.net/cfile/tistory/24223D42578FAEA305);
+  background-position: center center;
+  background-size: 50%;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-container {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+
+.profile__header-container img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__container input {
+  padding: 3px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile__links {
+  display: flex;
+}
+
+.profile__links .profile__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 17px;
+  cursor: pointer;
+}
+
+.profile__link-circle {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523636;
+  margin-bottom: 10px;
+}
+
+.profile__link-title {
+  font-size: 13px;
+  font-weight: 600;
+}
